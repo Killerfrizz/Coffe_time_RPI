@@ -167,13 +167,12 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     z-index: 10;
     left: -14%;
+    bottom: -4px;
 }
 
 /*intro*/
 .intro_inner{
     margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 55px;
     margin-left: 50px;
 }
@@ -211,10 +210,13 @@ h1,h2,h3,h4,h5,h6{
 .intro_inner_img{
     position: absolute;
     right: -10px;
-    bottom: 64px;
+    bottom: 55px;
 }
 /*block coffee*/
 .coffee_inner{
     display:flex;
     
+}
+.btn_order--black{
+    background-color: #222831;
 }
