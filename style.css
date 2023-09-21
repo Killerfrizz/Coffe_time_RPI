@@ -159,6 +159,9 @@ h1,h2,h3,h4,h5,h6{
 .section{
     position: relative;
 }
+.section--sea{
+    background-color: #29a19c;
+}
 .section_wave{
     width: 128%;
     position: relative;
@@ -209,4 +212,9 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     right: -10px;
     bottom: 64px;
+}
+/*block coffee*/
+.coffee_inner{
+    display:flex;
+    
 }
