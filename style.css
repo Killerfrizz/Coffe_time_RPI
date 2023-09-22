@@ -158,6 +158,7 @@ h1,h2,h3,h4,h5,h6{
 /*section*/
 .section{
     position: relative;
+    overflow: hidden;
 }
 .section--sea{
     background-color: #29a19c;
@@ -176,6 +177,13 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     z-index: -1;
     height: 275px;
+}
+.wave_bot{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 197px;
+    bottom: -60px;
 }
 
 /*intro*/
@@ -275,3 +283,47 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 45px;
 }
 
+/*Пишите по порядку и с комментариями*/
+/*Здесь должны быть voucher, reviews и расписание*/
+
+
+/*Branches*/
+.branches_title{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 88px;      
+    padding-top: 186px;
+    text-align: center;
+}
+.branches_inner{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    padding-bottom: 185px;
+}
+.branches_col{
+    width: 25%;
+}
+.branch_name{
+    color: #fff;
+    font-size: 33px;
+    font-weight: bold;
+    width: 250px;
+    height: 60px;
+    background-color: #29a19c;
+    border-radius: 15px;
+    margin: 35px auto 45px;
+    padding-top: 10px;
+    position: relative;
+}
+.branch_com{
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    background-color: #29a19c;
+    height: 45px;
+    width: 20px;
+    border-radius: 20% 0 50% 350% / 100% 0 100% 300%;
+} 
+
+/*Здесь footer*/
