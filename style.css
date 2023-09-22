@@ -168,6 +168,14 @@ h1,h2,h3,h4,h5,h6{
     z-index: 10;
     left: -14%;
     bottom: -4px;
+    height: 214px;
+}
+.wave_top{
+    position: absolute;
+    top: -87px;
+    width: 100%;
+    z-index: -1;
+    height: 275px;
 }
 
 /*intro*/
@@ -215,8 +223,55 @@ h1,h2,h3,h4,h5,h6{
 /*block coffee*/
 .coffee_inner{
     display:flex;
-    
+    padding-top: 35px;
+}
+.coffee_inner--white{
+    padding: 100px 0 55px;
+}
+.coffee_inner--hot{
+    padding-top: 150px;  
+    padding-bottom: 0;  
 }
 .btn_order--black{
     background-color: #222831;
 }
+.coffee_title{
+    font-size: 125px;
+    font-family: 'Grand Hotel', cursive;
+    margin-bottom: 65px;
+}
+.coffee_order{
+    padding-left: 135px;
+    width: 45%;
+    margin-top: 110px;
+    letter-spacing: 5px;
+    
+}
+.coffee_order--right{
+    text-align: right;
+    padding-right: 165px;
+    padding-left: 0;
+    line-height: 113px;
+    
+}
+.coffee_description{
+    width: 55%;
+    padding-right: 165px;
+    text-align: right;
+}
+.coffee_description--left{
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 0;
+}
+
+.coffee_description_text{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 39px;
+
+}
+.coffee_description_img{
+    margin-bottom: 45px;
+}
+
