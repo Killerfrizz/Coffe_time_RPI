@@ -45,7 +45,7 @@
                             <h2 class="intro_sub_title">your headline</h2>
                             <p class="intro_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                            <button class="btn_order">Order Now</button>
+                            <button class="btn_order btn_order--first">Order Now</button>
                         </div>
                         <img class="intro_inner_img" src="images/intro_coffee.png" alt="Coffee">
                     </div>
@@ -58,18 +58,20 @@
             <div class="container">
                 <div class="coffee_inner">
                     <div class="coffee_order">
-                        <div class="coffee_title">
-                            Black Coffees
+                        <div class="coffee_order_inner">
+                            <div class="coffee_title">
+                                Black Coffees
+                            </div>
+                            <button class="btn_order btn_order--black">Order Now</button>
                         </div>
-                        <button class="btn_order btn_order--black">Order Now</button>
                     </div>
                     <div class="coffee_description">
                         <img src="images/Black_Coffee.png" class="coffee_description_img" alt="Black Coffee">
                         <div class="coffee_description_text">
                             Lorem ipsum dolor sit amet, consectetur adipis
-                            cing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation
+                            <span>cing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation</span>
                         </div>
                     </div>
                 </div>
@@ -81,8 +83,9 @@
             <div class="container">
                 <div class="coffee_inner coffee_inner--hot">
                     <div class="coffee_description coffee_description--left">
-                        <img src="images/hot_coffee.png" class="coffee_description_img" alt="Hot Coffee">
-                        <div class="coffee_description_text">
+                        <img src="images/hot_coffee.png" class="coffee_description_img coffee_description_img--left"
+                            alt="Hot Coffee">
+                        <div class="coffee_description_text coffee_description_text--left">
                             Lorem ipsum dolor sit amet, consectetur adipis
                             cing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad
@@ -90,10 +93,12 @@
                         </div>
                     </div>
                     <div class="coffee_order coffee_order--right">
-                        <div class="coffee_title">
-                            Hot Coffees
+                        <div class="coffee_order_inner coffee_order_inner--right">
+                            <div class="coffee_title coffee_title--right">
+                                <span>Hot Coffees</span>
+                            </div>
+                            <button class="btn_order">Order Now</button>
                         </div>
-                        <button class="btn_order">Order Now</button>
                     </div>
                 </div>
             </div><!--container-->
@@ -103,20 +108,23 @@
             <div class="container">
                 <div class="coffee_inner coffee_inner--white">
                     <div class="coffee_order">
-                        <div class="coffee_title">
-                            White Coffees
+                        <div class="coffee_order_inner">
+                            <div class="coffee_title coffee_title--white">
+                                White Coffees
+                            </div>
+                            <button class="btn_order">Order Now</button>
                         </div>
-                        <button class="btn_order">Order Now</button>
                     </div>
 
                     <div class="coffee_description">
-                        <img src="images/white_coffee.png" class="coffee_description_img" alt="White Coffee">
-                        <div class="coffee_description_text">
+                        <img src="images/white_coffee.png" class="coffee_description_img coffee_description_img--white"
+                            alt="White Coffee">
+                        <div class="coffee_description_text coffee_description_text--white">
                             Lorem ipsum dolor sit amet, consectetur adipis
-                            cing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ea commodo
+                            <span>cing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ea commodo</span>
                         </div>
                     </div>
                 </div>
@@ -129,22 +137,22 @@
 
         <section class="section"><!--voucher-->
             <div class="container">
-                <div class="voucher_inner">    
+                <div class="voucher_inner">
                     <div class="voucher-text">
                         <h2 class="voucher_title">Voucher</h2> <!--?Мб и не нужен заголовок?-->
-                    </div>           
+                    </div>
                     <img src="images/voucher_card.png" alt="Voucher">
-                    <button class="btn_order btn_order--voucher">Get Voucher Now</button>  
+                    <button class="btn_order btn_order--voucher">Get Voucher Now</button>
                 </div><!--voucher inner-->
             </div><!--container-->
         </section><!--voucher-->
 
         <section class="section"> <!--reviews-->
             <div class="container">
-                <div class="reviews_inner">  
+                <div class="reviews_inner">
                     <div class="reviews_title">
                         Customer Reviews
-                    </div>    
+                    </div>
                     <div class="reviews_list">
                         <div class="reviews_john_info">
                             <img src="images/customer_john.png" class="review_img" alt="photo of John">
@@ -152,9 +160,9 @@
                                 John Peter
                             </div>
                             <div class="reviews_description_text">Lorem ipsum dolor sit amet,
-                                 consectetur adipiscing elit, sed do 
-                                 eiusmod tempor incididunt ut 
-                                 labore et dolore magna aliqua. Quis
+                                consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Quis
                             </div>
                         </div>
                         <div class="reviews_ella_info">
@@ -163,71 +171,90 @@
                                 Ella Thomson
                             </div>
                             <div class="reviews_description_text ella_description_text">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut 
+                                consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Quis
                             </div>
                         </div>
                     </div><!--reviews-->
                 </div><!--reviews inner-->
-            </div><!--container-->   
-            <img class="wave_bot" src="images/wave_bot_customers.png" alt="">              
+            </div><!--container-->
+            <img class="wave_bot" src="images/wave_bot_customers.png" alt="">
         </section><!--reviews-->
-        
+
         <!--Дальше расписание-->
-        
+
+        <section class="section section--sea"><!--black coffee-->
+            <div class="container">
+                <div class="shedule_inner">
+                    <div class="shedule_title">
+                        We are Open
+                    </div>
+                    <div class="shedule_block">
+                        <p class="shedule_days">Monday - Friday</p>
+                        <p class="shedule_time">10:00 am - 10:00 pm</p>
+                    </div>
+                    <div class="shedule_block">
+                        <p class="shedule_days">Saturday and Sunday</p>
+                        <p class="shedule_time">10:00 am - 10:10 pm</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section"><!--Branches-->
             <img class="wave_top" src="images/wave_top2.png" alt="">
             <div class="container">
-                <div class="branches_title">
-                    Our Branches
+                <div class="branch_content">
+                    <div class="branches_title">
+                        Our Branches
+                    </div>
+                    <div class="branches_inner">
+                        <div class="branches_col">
+                            <img src="images/branch1.png" alt="">
+                            <div class="branch_name branch_name--first">
+                                <div class="branch_com"></div>
+                                New York
+                            </div>
+                            <div class="branch_text branch_text--first">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliq
+                                ua. Ut enim ad minim veniam, quis nostr
+                                ud exercitation
+                            </div>
+                        </div>
+                        <div class="branches_col">
+                            <img src="images/branch2.png" alt="">
+                            <div class="branch_name">
+                                <div class="branch_com"></div>
+                                Jakarta
+                            </div>
+                            <div class="branch_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliq
+                                ua. Ut enim ad minim veniam, quis nostr
+                                ud exercitation
+                            </div>
+                        </div>
+                        <div class="branches_col">
+                            <img src="images/branch3.png" alt="">
+                            <div class="branch_name">
+                                <div class="branch_com"></div>
+                                Paris
+                            </div>
+                            <div class="branch_text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliq
+                                ua. Ut enim ad minim veniam, quis nostr
+                                ud exercitation
+                            </div>
+                        </div>
+                    </div><!--Branches inner-->
                 </div>
-                <div class="branches_inner">
-                    <div class="branches_col">
-                        <img src="images/branch1.png" alt="">
-                        <div class="branch_name">
-                            <div class="branch_com"></div>
-                            New York
-                        </div>
-                        <div class="branch_text">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliq
-                            ua. Ut enim ad minim veniam, quis nostr
-                            ud exercitation
-                        </div>
-                    </div>
-                    <div class="branches_col">
-                        <img src="images/branch2.png" alt="">
-                        <div class="branch_name">
-                            <div class="branch_com"></div>
-                            Jakarta
-                        </div>
-                        <div class="branch_text">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliq
-                            ua. Ut enim ad minim veniam, quis nostr
-                            ud exercitation
-                        </div>
-                    </div>
-                    <div class="branches_col">
-                        <img src="images/branch3.png" alt="">
-                        <div class="branch_name">
-                            <div class="branch_com"></div>
-                            Paris
-                        </div>
-                        <div class="branch_text">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliq
-                            ua. Ut enim ad minim veniam, quis nostr
-                            ud exercitation
-                        </div>
-                    </div>
-                </div><!--Branches inner-->
             </div><!--container-->
-            <img class="wave_bot" src="images/wave_bot2.png" alt="">
+            <img class="wave_bot wave_bot--branch" src="images/wave_bot2.png" alt="">
         </section><!--Branches-->
 
         <!--Здесь footer-->
