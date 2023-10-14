@@ -25,6 +25,14 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+.back_icons{
+    top: 63px;
+    left: 46px;
+    display: block;
+    position: absolute;
+    z-index: 1000;
+}
+
 /*container*/
 .container{
     width: 100%;
@@ -158,6 +166,7 @@ h1,h2,h3,h4,h5,h6{
 .page{
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 /*section*/
@@ -466,16 +475,20 @@ h1,h2,h3,h4,h5,h6{
 }
 .shedule_block{
     width: 100%;
+    position: relative;
+    left: -4px;
 }
 .shedule_days{
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 2px;
+    letter-spacing: -0.02vw;
 }
 .shedule_time{
     font-size: 38px;
     font-weight: 400;
 }
+
 
 /*Branches*/
 .branch_content{
@@ -527,6 +540,10 @@ h1,h2,h3,h4,h5,h6{
     width: 20px;
     border-radius: 20% 0 50% 350% / 100% 0 100% 300%;
 } 
+.branch_name_jakarta{
+    padding-top: 12px;
+    padding-left: 3px;
+}
 .branch_name--first{
     margin-left: -10px;
 }
@@ -569,10 +586,6 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
 }
 
-.menu_link span{
-    letter-spacing: -0.01vw;
-}
-
 .menu_title{
     font-size: 33px;
     font-family: 'Montserrat ', sans-serif;
@@ -596,7 +609,6 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 19px;
-    /*justify-content: space-between;*/
 }
 
 .footer_content{
@@ -608,26 +620,45 @@ h1,h2,h3,h4,h5,h6{
 
 .footer_end{
     display: flex;
-    padding: 43px 58px 43px 60px;
+    padding: 43px 58px 39px 60px;
     justify-content: space-between;
     margin-top : 50px;
 }
 
 .socials{
-    width: 16%;
-    justify-content: space-between;
+    width: 16.5%;
     display: flex;
 }
 
 .socials i{
     display: block;
-    font-size: 25px;
+    margin-right: 50px;
+    position: relative;
+}
+.fa-facebook-f{
+    bottom: 1px;
+    font-size: 24px;
+}
+.fa-instagram{
+    font-size: 26px;
+    bottom: 1.5px;
+    right: 2px;
+}
+.fa-twitter{
+    font-size: 23px;
+    bottom: 2px;
+    right: 7px;
+}
+.fa-youtube{
+    font-size: 22.5px;
+    bottom: -0.5px;
+    right: 17px;
 }
 
 .footer-line{
     width: 100%;
     background-color: #222831;
-    height: 11px;
+    height: 7px;
 }
 
 .logo_image123{
@@ -673,7 +704,3 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: space-between;
 }
-/*
-display:flex
-justify-content: space-between;
-*/
