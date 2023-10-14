@@ -11,7 +11,9 @@
 	border: none;
     color: #fff;
 }
-
+button{
+    cursor: pointer;
+}
 *,
 *::before,
 *::after {
@@ -239,7 +241,8 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 28px;
-    cursor: pointer;
+    position: relative;
+    z-index: 1000;
 }
 .btn_order--first{
     margin-left: 5px;
@@ -634,6 +637,7 @@ h1,h2,h3,h4,h5,h6{
     display: block;
     margin-right: 50px;
     position: relative;
+    cursor: pointer;
 }
 .fa-facebook-f{
     bottom: 1px;
