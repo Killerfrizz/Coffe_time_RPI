@@ -296,7 +296,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 39px;
     text-align: right;
     width: 89%;
-    letter-spacing: 0.185vh;
+    letter-spacing: 0.0886vw; /**/
 }
 .coffee_description_text--left{
     text-align: left;
@@ -305,7 +305,7 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     left: 50px;
     font-size: 23px;
-    letter-spacing: 0.185vh;
+    letter-spacing: 0.0886vw;
     line-height: 41px;
 }
 .coffee_description_text span{
@@ -320,7 +320,7 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     right: 15px;
     top: -5px;
-    letter-spacing: 0.227vh;
+    letter-spacing: 0.109vw;
 }
 .coffee_description_img{
     position: relative;
@@ -517,7 +517,6 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     letter-spacing: 2px;
     line-height: 34px;
-
 }
 .branch_com{
     position: absolute;
@@ -552,3 +551,129 @@ h1,h2,h3,h4,h5,h6{
     width: 101%;
 }
 /*Здесь footer*/
+
+.footer_header{
+    display: flex;
+}
+
+.menu_item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+.menu_list{
+    list-style-type: none;
+}
+
+.menu_link{
+    text-decoration: none;
+}
+
+.menu_link span{
+    letter-spacing: -0.01vw;
+}
+
+.menu_title{
+    font-size: 33px;
+    font-family: 'Montserrat ', sans-serif;
+    font-weight: bold;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_flink{
+    display: inline-block;
+    margin-right: 63px;
+    vertical-align: top;
+    color: #fff;
+    transition: color .2s linear;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 19px;
+    /*justify-content: space-between;*/
+}
+
+.footer_content{
+    display: flex;
+    margin-top: 53px;
+    padding-left: 60px;
+
+}
+
+.footer_end{
+    display: flex;
+    padding: 43px 58px 43px 60px;
+    justify-content: space-between;
+    margin-top : 50px;
+}
+
+.socials{
+    width: 16%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.socials i{
+    display: block;
+    font-size: 25px;
+}
+
+.footer-line{
+    width: 100%;
+    background-color: #222831;
+    height: 11px;
+}
+
+.logo_image123{
+    width: 55%;
+}
+
+.stats1{
+    width: 50%;
+    display: block;
+    justify-content: space-between;
+    letter-spacing: 0.1vw;
+}
+
+.stats2{
+    width: 46%;
+    display: block;
+    justify-content: space-between;
+    letter-spacing: 0.1vw;
+}
+
+.stats2 .Title{
+    letter-spacing: 0.1vw;
+}
+
+.Title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu_list_ott{
+    margin-top: 52px;
+}
+
+.menu_list_ott li{
+    margin-top: 9px;
+}
+
+.stats{
+    margin-top: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+/*
+display:flex
+justify-content: space-between;
+*/
