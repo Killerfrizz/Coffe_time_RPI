@@ -25,6 +25,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
+    font-weight: 400;
 }
 
 .back_icons{
@@ -130,7 +131,9 @@ h1,h2,h3,h4,h5,h6{
     transform: rotate(-45deg) translateX(-3px);
 }
 */
-
+.nav li{
+    display: inline-block;
+}
 .nav_link{
     display: inline-block;
     margin-right: 46px;
@@ -352,11 +355,12 @@ h1,h2,h3,h4,h5,h6{
 .coffee_title--right{
    height: 470px;
 }
-.coffee_title--right span{
+.coffee_title--right h2{
     display: inline-block;
     position: relative;
     top: 20px;
     right: 6px;
+    font-size: 125px;
 }
 .coffee_title--white{
     height: 424px;
@@ -505,7 +509,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Grand Hotel', cursive;
     font-size: 88px;      
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 0.246vw;
     width: 100%;
     margin-top: 3px;
     line-height: 134px;
@@ -544,8 +548,8 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 20% 0 50% 350% / 100% 0 100% 300%;
 } 
 .branch_name_jakarta{
-    padding-top: 12px;
-    padding-left: 3px;
+    padding-top: 11px;
+    padding-left: 4px;
 }
 .branch_name--first{
     margin-left: -10px;
